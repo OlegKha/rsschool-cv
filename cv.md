@@ -1,4 +1,4 @@
-[rsschool-cv](https://hexlet.io)
+[rsschool-cv](https://olegkha.github.io/rsschool-cv/cv)
 ___
 
 # Oleg Kharyton
