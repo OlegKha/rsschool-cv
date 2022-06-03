@@ -1,2 +1,1 @@
-# rsschool-cv
-Curriculum Vitae
+https://olegkha.github.io/rsschool-cv/cv
