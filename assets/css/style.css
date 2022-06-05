@@ -1,0 +1,17 @@
+/*Fonts*/
+
+@font-face {
+    font-family: 'Calibri Light';
+    src: url("../fonts/calibri/calibril.woff");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Calibri Regular';
+    src: url("../fonts/calibri/calibri.woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Calibri Bold';
+    src: url("../fonts/calibri/calibrib.woff");
+    font-weight: 700;
+}
