@@ -1,0 +1,163 @@
+/*Fonts*/
+
+@font-face {
+  font-family: 'Calibri Light';
+  src: url("../fonts/calibri/calibril.woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Calibri Regular';
+  src: url("../fonts/calibri/calibri.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Calibri Bold';
+  src: url("../fonts/calibri/calibrib.woff");
+  font-weight: 700;
+}
+
+/*Common*/
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  line-height: 1;
+  font-family: "Calibri Regular", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+li {
+  list-style: none;
+}
+
+[class*=__container] {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #3a605c;
+}
+
+/*Header*/
+
+.header {
+  // .header__container
+  &__container {
+    padding: 40px 0 0 0;
+  }
+
+  // .header__info
+  &__info {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 20px 0;
+  }
+
+  // .header__navigation
+  &__navigation {
+    padding: 20px;
+  }
+}
+
+.info {
+  // .info__profile
+  &__profile {
+  }
+
+  // .info__address
+  &__address {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+  }
+
+  // .info__email
+  &__email {
+    display: inline-block;
+  }
+
+  // .info__tel
+  &__tel {
+  }
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  // .profile__photo
+  &__photo {
+    max-width: 224px;
+  }
+
+  &__img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  // .profile__identity
+  &__identity {
+    color: #FFFFFF;
+  }
+
+  // .profile__name
+  &__name {
+    margin: 0 0 15px 0;
+  }
+
+  // .profile__profession
+  &__profession {
+  }
+}
+
+.navigation {
+  // .navigation__list
+  &__list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  // .navigation__item
+  &__item {
+  }
+
+  // .navigation__link
+  &__link {
+  }
+  &__link:hover {
+    display: inline-block;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+  }
+}
