@@ -42,7 +42,7 @@ li {
 }
 
 [class*=__container] {
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -82,9 +82,15 @@ header {
   gap: 50px;
   align-items: center;
 }
-.info__email {
-  display: inline-block;
+.info__email img {
+  width: 50px;
+  height: 50px;
 }
+.info__tel img {
+  width: 50px;
+  height: 50px;
+}
+
 .profile {
   display: flex;
   align-items: center;
@@ -109,10 +115,91 @@ header {
   display: flex;
   justify-content: space-around;
 }
+.navigation__link {
+  font-size: 20px;
+}
 .navigation__link:hover {
   display: inline-block;
   transform: scale(1.1);
   transition: all 0.2s ease-in-out;
 }
+
+/*Main*/
+.main {
+  padding: 30px;
+  background: #88BDBC;
+}
+.main__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.main__point-info {
+  position: relative;
+  padding: 0 0 0 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 27px;
+}
+
+.contact-info::before {
+  content: "";
+  background: url("../img/icons/contact-info.svg") 0 0/50px 50px no-repeat;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+.summary::before {
+  content: "";
+  background: url("../img/icons/summary.svg") 0 0/50px 50px no-repeat;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+.skills::before {
+  content: "";
+  background: url("../img/icons/skills.svg") 0 0/50px 50px no-repeat;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+.code-example::before {
+  content: "";
+  background: url("../img/icons/code-example.svg") 0 0/50px 50px no-repeat;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+.experience a {
+  color: crimson;
+}
+.experience::before {
+  content: "";
+  background: url("../img/icons/experience.svg") 0 0/50px 50px no-repeat;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+.english::before {
+  content: "";
+  background: url("../img/icons/english.svg") 0 0/50px 50px no-repeat;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+/*Footer*/
 
 /*# sourceMappingURL=style.css.map */
