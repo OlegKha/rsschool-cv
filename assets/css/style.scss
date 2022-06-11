@@ -340,6 +340,40 @@ header {
 
 /*Footer*/
 
+.footer {
+  background: #5fa29a;
+  padding: 20px;
+  // .footer__container
+  &__container {
+  }
+
+  // .footer__social
+  &__social {
+  }
+
+  // .footer__copy
+  &__copy {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+.social-footer {
+  // .social-footer__items
+  &__items {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  // .social-footer__item
+  &__item {
+    & img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
 
 
 

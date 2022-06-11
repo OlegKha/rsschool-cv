@@ -201,5 +201,23 @@ header {
   left: 0;
 }
 /*Footer*/
+.footer {
+  background: #5fa29a;
+  padding: 20px;
+}
+.footer__copy {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.social-footer__items {
+  display: flex;
+  justify-content: space-around;
+}
+.social-footer__item img {
+  width: 80px;
+  height: 80px;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -30,25 +30,25 @@
         <nav class="header__navigation navigation">
             <ul class="navigation__list">
                 <li class="navigation__item">
-                    <a href="#" class="navigation__link">Contact Info</a>
+                    <a href="#contact-info" class="navigation__link">Contact Info</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#" class="navigation__link">Summary</a>
+                    <a href="#summary" class="navigation__link">Summary</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#" class="navigation__link">Skills</a>
+                    <a href="#skills" class="navigation__link">Skills</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#" class="navigation__link">Code example</a>
+                    <a href="#code-example" class="navigation__link">Code example</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#" class="navigation__link">Experience</a>
+                    <a href="#experience" class="navigation__link">Experience</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#" class="navigation__link">Education</a>
+                    <a href="#education" class="navigation__link">Education</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#" class="navigation__link">English</a>
+                    <a href="#english" class="navigation__link">English</a>
                 </li>
             </ul>
         </nav>
@@ -56,7 +56,7 @@
 </header>
 <main class="main">
     <div class="main__container">
-        <section class="main__point-info contact-info">
+        <section id="contact-info" class="main__point-info contact-info">
             <h3 class="contact-info__title">Contact Info</h3>
             <ul class="contact-info__list">
                 <li class="contact-info__item">Address: Ivasiuka str. Chernivtsi, Ukraine</li>
@@ -67,12 +67,12 @@
                 <li class="contact-info__item">Telegram: Oleg Kharyton</li>
             </ul>
         </section>
-        <section class="main__point-info summary">
+        <section id="summary" class="main__point-info summary">
             <h3 class="summary__title">Summary</h3>
             <p class="summary__text">It is now my goal is to switch a job. Recently decide to try web programing. And here i am, in your school :)
                 My strong suit is attraction to computers and technologies. My temporary weakness is my poor English.</p>
         </section>
-        <section class="main__point-info skills">
+        <section id="skills" class="main__point-info skills">
             <h3 class="skills__title">Skills</h3>
             <ul class="skills__list">
                 <li class="skills__item">HTML</li>
@@ -83,7 +83,7 @@
                 <li class="skills__item">WebStorm</li>
             </ul>
         </section>
-        <section class="main__point-info code-example">
+        <section id="code-example" class="main__point-info code-example">
             <h3 class="code-example__title">Code Example</h3>
             <code class="code-example__example">
                 function multiply(a, b){
@@ -91,20 +91,34 @@
                 }
             </code>
         </section>
-        <section class="main__point-info experience">
+        <section id="experience" class="main__point-info experience">
             <h3 class="experience__title">Experience</h3>
             <ol class="experience__list">
                 <li class="experience__item"><a href="https://edu.fls.guru/">edu.fls.guru</a></li>
                 <li class="experience__item"><a href="https://learn.javascript.ru/courses/htmlcss">learn.javascript.ru</a></li>
             </ol>
         </section>
-        <section class="main__point-info english">
+        <section id="english" class="main__point-info english">
             <h3 class="english__title">English</h3>
             <p class="english__text">А2 (Elementary)</p>
         </section>
     </div>
 </main>
-<footer class="footer">Footer</footer>
+<footer class="footer">
+    <div class="footer__container">
+        <ul class="footer__social social-footer">
+            <li class="social-footer__items">
+                <a href="https://github.com/OlegKha" class="social-footer__item">
+                    <img src="../rsschool-cv/assets/img/icons/github.svg" alt="Github">
+                </a>
+                <a href="https://rs.school/js-stage0/" class="social-footer__item">
+                    <img src="../rsschool-cv/assets/img/content/rss-logo.svg" alt="RSSchool">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer__copy">© 2022 Copyright</div>
+</footer>
 </div>
 <script src="assets/js/script.js"></script>
 </body>
