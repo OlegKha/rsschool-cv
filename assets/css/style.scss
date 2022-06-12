@@ -85,6 +85,12 @@ header {
     display: flex;
     justify-content: space-around;
     margin: 0 0 20px 0;
+    @media (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
   }
 
   // .header__navigation
@@ -96,6 +102,7 @@ header {
 .info {
   // .info__profile
   &__profile {
+
   }
 
   // .info__address
@@ -131,6 +138,11 @@ header {
   display: flex;
   align-items: center;
   gap: 30px;
+  @media (max-width: 374px) {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
   // .profile__photo
   &__photo {
     max-width: 224px;
@@ -163,6 +175,12 @@ header {
   &__list {
     display: flex;
     justify-content: space-around;
+    @media (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
   }
 
   // .navigation__item
@@ -186,7 +204,7 @@ header {
 
 
 .main {
-  padding: 30px;
+  padding: 50px;
   background: #88BDBC;
   // .main__container
   &__container {
@@ -203,6 +221,13 @@ header {
     font-weight: 400;
     font-size: 19px;
     line-height: 27px;
+    max-width: 700px;
+    &:not(:last-child) {
+      margin: 0 0 70px 0;
+      @media (max-width: 375px) {
+        font-size: 16px;
+      }
+    }
   }
 }
 
@@ -287,6 +312,11 @@ header {
 
   // .code-example__example
   &__example {
+    display: block;
+    padding: 20px;
+    background: black;
+    color: white;
+    max-width: 250px;
   }
 }
 
@@ -297,6 +327,32 @@ header {
   &::before {
     content: "";
     background: url("../img/icons/experience.svg") 0 0 / 50px 50px no-repeat;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+  }
+  // .experience__title
+  &__title {
+  }
+
+  // .experience__text
+  &__text {
+  }
+
+  // .experience__example
+  &__example {
+  }
+}
+
+.education {
+  & a {
+    color: crimson;
+  }
+  &::before {
+    content: "";
+    background: url("../img/icons/education.svg") 0 0 / 50px 50px no-repeat;
     position: absolute;
     width: 50px;
     height: 50px;
