@@ -102,7 +102,9 @@ header {
 .info {
   // .info__profile
   &__profile {
-
+    @media (max-width: 374px) {
+      margin: 0 0 20px 0;
+    }
   }
 
   // .info__address
@@ -206,11 +208,17 @@ header {
 .main {
   padding: 50px;
   background: #88BDBC;
+  @media (max-width: 375px) {
+    padding: 20px;
+  }
   // .main__container
   &__container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
+    @media (max-width: 751px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   // .main__point-info
