@@ -131,6 +131,15 @@ header {
 .profile__name {
   margin: 0 0 15px 0;
 }
+.profile__profession {
+  font-size: 17px;
+}
+@media (max-width: 417px) {
+  .profile__profession {
+    line-height: 0.9em;
+  }
+}
+
 .navigation__list {
   display: flex;
   justify-content: space-around;

@@ -169,6 +169,10 @@ header {
 
   // .profile__profession
   &__profession {
+    font-size: 17px;
+    @media (max-width: 417px) {
+      line-height: 0.9em;
+    }
   }
 }
 
