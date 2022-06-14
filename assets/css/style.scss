@@ -255,6 +255,9 @@ header {
 
   // .contact-info__list
   &__list {
+    & a {
+      color: crimson;
+    }
   }
 
   // .contact-info__item

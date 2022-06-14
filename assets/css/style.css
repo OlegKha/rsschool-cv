@@ -199,6 +199,9 @@ header {
   top: 0;
   left: 0;
 }
+.contact-info__list a {
+  color: crimson;
+}
 .summary::before {
   content: "";
   background: url("../img/icons/summary.svg") 0 0/50px 50px no-repeat;
